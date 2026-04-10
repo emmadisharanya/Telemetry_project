@@ -1,0 +1,7 @@
+import csv
+with open('NASA_access_log_Jul95.csv', encoding='utf-8', errors='replace') as f:
+    reader = csv.DictReader(f)
+    for i, row in enumerate(reader):
+        print(row)
+        if i >= 4:
+            break
