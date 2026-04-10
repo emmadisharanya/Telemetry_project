@@ -1,4 +1,4 @@
-## Firetiger-style Telemetry Demo
+
 
 This is a lightweight telemetry ingestion and query demo inspired by Firetiger's architecture:
 
